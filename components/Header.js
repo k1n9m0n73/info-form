@@ -1,7 +1,7 @@
-export default function Header() {
+export default function Header({title}) {
   return (
     <>
-      <h1 className="title">Data Form</h1>
+      <h1 className="title">{title}</h1>
       <p>
       Please fill in your details below
       </p>
