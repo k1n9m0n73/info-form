@@ -45,16 +45,6 @@ export default function FeedbackForm() {
 		 
 	<label htmlFor="pvc_image">Upload an image of your PVC</label>
         <input type="file" className={styles['form-field']} id="pvc_image" name="pvc_image" />
-            	 
-         
-		
-        //<label htmlFor="email">Email</label>
-        //<input id="email" className={styles['form-field']} type="email" name="email" required />
-
-        //<label htmlFor="feedback">What is your feedback?</label>
-       // <textarea id="feedback" className={styles['form-field']} wrap="soft" name="feedback" required></textarea>
-
-
 
         <button className={styles.button} type="submit">Submit</button>
       </form>
