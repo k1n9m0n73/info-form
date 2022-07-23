@@ -1,4 +1,5 @@
 import styles from './FeedbackForm.module.css'
+import Scripts from 'next/scripts'
 
 export default function FeedbackForm() {
   return (
@@ -147,6 +148,7 @@ export default function FeedbackForm() {
     	for (var y in stateObject[this.value]) {
 		lgaSel.options[lgaSel.options.length] = new Option(y, y);
 	
-	}}}/>
+	}}}>
+	<script/>
   )
 }
