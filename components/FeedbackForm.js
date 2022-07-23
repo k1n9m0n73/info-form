@@ -5,12 +5,9 @@ export default function FeedbackForm() {
 	  
 	<html lang="en">
 	<head>
-    	<meta charset="UTF-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     	<title>Data Form</title></head>
 	<body>
-	  
-      <form
+	   <form
         className={styles.form}
         data-netlify="true"
         data-netlify-honeypot="bot-field"
