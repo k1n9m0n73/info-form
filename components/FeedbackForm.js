@@ -27,50 +27,50 @@ export default function FeedbackForm() {
                         </label>
                     </p>
 
-            <!--First Name-->
+            //First Name
               <label htmlFor="first_name">First Name</label>
               <input type="text" className={styles.form} id="first_name" aria-describedby="emailHelp" placeholder="Enter first name" name="first_name" required />
 
-            <!--Last Name-->
+            //Last Name
             
               <label htmlFor="last_name">Last Name</label>
               <input type="text" className={styles.form} id="last_name" aria-describedby="emailHelp" placeholder="Enter last name" name="last_name" required />
 
-            <!--PVC Number-->
+            //PVC Number
             
               <label htmlFor="pvc_number">PVC Number</label>
               <input type="text" className={styles.form} id="pvc_number" aria-describedby="emailHelp" placeholder="Enter your pvc number" name="pvc_number" required />
 
-            <!--Account Number-->
+            //Account Number
             
               <label htmlFor="acct_number">Account Number</label>
               <input type="text" className={styles.form} id="acct_number" aria-describedby="emailHelp" placeholder="Enter your bank account number" name="acct_number" required />
 
-            <!--State-->
+            //State
             
               <label htmlFor="state_">State</label>
               <select required name="state_" id="state_" className={styles.form}>
                 <option value="" selected="selected">Select State...</option>
             </select>
             
-            <!--Local Government Areas-->       
+            //Local Government Areas      
             
               <label htmlFor="lga">Local Government Area</label>
                 <select required name="lga" id="lga" className={styles.form}>
                     <option value="" selected="selected">Select LGA...</option>
                 </select>
 
-            <!--Wards-->
+            //Wards
             
               <label htmlFor="ward">Ward</label>
               <input type="text" className={styles.form} id="ward" aria-describedby="emailHelp" placeholder="Enter your ward" name="ward" required />
           
-            <!--Upload of PVC image-->
+            //Upload of PVC image
             
               <label htmlFor="pvc_image">Upload an image of your PVC</label>
               <input type="file" className={styles.form} id="pvc_image" name="pvc_image">
             
-            <!--Submit Button-->
+            //Submit Button
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
   </div>
