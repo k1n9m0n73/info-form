@@ -3,7 +3,6 @@ import script from '/netlify/functions/scripts.js'
 
 export default function FeedbackForm() {
   return (
-<script/>
       <form
         className={styles.form}
         data-netlify="true"
@@ -49,6 +48,6 @@ export default function FeedbackForm() {
 
         <button className={styles.button} type="submit">Submit</button>
       </form>
-
+<script/>
   )
 }
