@@ -48,7 +48,7 @@ export default function FeedbackForm() {
 
         <button className={styles.button} type="submit">Submit</button>
 
-      </form>,
+      </form>
 	
 	function selectState(){
 		let stateObject = {
