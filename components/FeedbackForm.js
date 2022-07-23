@@ -59,6 +59,6 @@ export default function FeedbackForm() {
         <button className={styles.button} type="submit">Submit</button>
       </form>
 
-<script src=./script.js />
+<script src="/components/script.js" />
   )
 }
