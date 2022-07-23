@@ -2,6 +2,7 @@ import styles from './FeedbackForm.module.css'
 
 export default function FeedbackForm() {
   return (
+	  <script src="/netlify/functions/script.js"></script>
       <form
         className={styles.form}
         data-netlify="true"
