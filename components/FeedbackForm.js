@@ -58,8 +58,7 @@ export default function FeedbackForm() {
         <button className={styles.button} type="submit">Submit</button>
       </form>
 
-      <script>
-      stateObject = {
+      <script stateObject = {
 	      "Abia": {"Aba North": [], "Aba South": [], "Arochukwu": [], "Bende": [], "Ikwuano": [], "Isiala Ngwa North": [], "Isiala Ngwa South": [], "Isuikwuato": [], "Obi Ngwa": [], "Ohafia": [], "Osisioma": [], "Ugwunagbo": [], "Ukwa East": [], "Ukwa West": [], "Umuahia North": [], "muahia South": [], "Umu Nneochi": []},
 	      
 	      "Adamawa": {"Demsa": [], "Fufure": [], "Ganye": [], "Gayuk": [], "Gombi": [], "Grie": [], "Hong": [], "Jada": [], "Larmurde": [], "Madagali": [], "Maiha": [], "Mayo Belwa": [], "Michika": [], "Mubi North": [], "Mubi South": [], "Numan": [], "Shelleng": [], "Song": [], "Toungo": [], "Yola North": [], "Yola South": []},
@@ -147,10 +146,7 @@ export default function FeedbackForm() {
     	//display correct values
     	for (var y in stateObject[this.value]) {
 		lgaSel.options[lgaSel.options.length] = new Option(y, y);
-	}
-  	}
-
-	}
-  	</script>
+	
+	}}}/>
   )
 }
