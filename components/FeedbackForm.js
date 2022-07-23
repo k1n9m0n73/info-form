@@ -1,5 +1,5 @@
 import styles from './FeedbackForm.module.css'
-import script from './script.js'
+//import script from './script.js'
 
 export default function FeedbackForm() {
   return (
