@@ -49,8 +49,8 @@ export default function FeedbackForm() {
         <button className={styles.button} type="submit">Submit</button>
 
       </form>
-	
-	function selectState(){
+  )
+  	function selectState(){
 		let stateObject = {
 			"Abia": ["Aba North", "Aba South", "Arochukwu", "Bende", "Ikwuano", "Isiala Ngwa North", "Isiala Ngwa South", "Isuikwuato", "Obi Ngwa", "Ohafia", "Osisioma", "Ugwunagbo", "Ukwa East", "Ukwa West", "Umuahia North", "muahia South", "Umu Nneochi"],
 	
@@ -145,6 +145,5 @@ export default function FeedbackForm() {
 			}
 		}
 	}
-  )
 
 }
