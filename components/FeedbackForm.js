@@ -1,5 +1,5 @@
 import styles from './FeedbackForm.module.css'
-import script from '/netlify/functions/scripts.js'
+
 
 export default function FeedbackForm() {
   return (
