@@ -50,7 +50,7 @@ export default function FeedbackForm() {
 
       </form>,
 
-	var stateObject = {
+	const stateObject = {
 		"Abia": {"Aba North": [], "Aba South": [], "Arochukwu": [], "Bende": [], "Ikwuano": [], "Isiala Ngwa North": [], "Isiala Ngwa South": [], "Isuikwuato": [], "Obi Ngwa": [], "Ohafia": [], "Osisioma": [], "Ugwunagbo": [], "Ukwa East": [], "Ukwa West": [], "Umuahia North": [], "muahia South": [], "Umu Nneochi": []},
 	
 		"Adamawa": {"Demsa": [], "Fufure": [], "Ganye": [], "Gayuk": [], "Gombi": [], "Grie": [], "Hong": [], "Jada": [], "Larmurde": [], "Madagali": [], "Maiha": [], "Mayo Belwa": [], "Michika": [], "Mubi North": [], "Mubi South": [], "Numan": [], "Shelleng": [], "Song": [], "Toungo": [], "Yola North": [], "Yola South": []},      
@@ -127,10 +127,10 @@ export default function FeedbackForm() {
 	}
 
 	window.onload = function() {
-		var stateSel = document.getElementById("state_");
-		var lgaSel = document.getElementById("lga");
+		const stateSel = document.getElementById("state_");
+		const lgaSel = document.getElementById("lga");
 	
-		for (var x in stateObject) {
+		for (const x in stateObject) {
 			stateSel.options[stateSel.options.length] = new Option(x, x);
 		}
 		
@@ -138,7 +138,7 @@ export default function FeedbackForm() {
 			//empty lga dropdowns
 			lgaSel.length = 1;
 			//display correct values
-			for (var y in stateObject[this.value]) {
+			for (const y in stateObject[this.value]) {
 				lgaSel.options[lgaSel.options.length] = new Option(y, y);
 			}
 		}
