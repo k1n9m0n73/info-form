@@ -3,6 +3,14 @@ import styles from './FeedbackForm.module.css'
 export default function FeedbackForm() {
   return (
 	  
+	<html lang="en">
+	<head>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Data Form</title>
+	  </head>
+	<body>
+	  
       <form
         className={styles.form}
         data-netlify="true"
@@ -49,7 +57,7 @@ export default function FeedbackForm() {
         <button className={styles.button} type="submit">Submit</button>
 
       </form>
-  )
+	<script>
 		var stateObject = {
 			
  			"Abia": ["Aba North", "Aba South", "Arochukwu", "Bende", "Ikwuano", "Isiala Ngwa North", "Isiala Ngwa South", "Isuikwuato", "Obi Ngwa", "Ohafia", "Osisioma", "Ugwunagbo", "Ukwa East", "Ukwa West", "Umuahia North", "muahia South", "Umu Nneochi"],
@@ -128,10 +136,10 @@ export default function FeedbackForm() {
 		}
 	
 		window.onload = function() {
-			let stateSel = document.getElementById("state_");
-			let lgaSel = document.getElementById("lga");
+			var stateSel = document.getElementById("state_");
+			var lgaSel = document.getElementById("lga");
 	
-			for (let x in stateObject) {
+			for (var x in stateObject) {
 				stateSel.options[stateSel.options.length] = new Option(x, x);
 			}
 		
@@ -139,9 +147,14 @@ export default function FeedbackForm() {
 				//empty lga dropdowns
 				lgaSel.length = 1;
 				//display correct values
-				for (let y in stateObject[this.value]) {
+				for (var y in stateObject[this.value]) {
 					lgaSel.options[lgaSel.options.length] = new Option(y, y);
 				}
 			}
 		}
+	</script>
+
+	</body>
+	</html>
+	)
 }
