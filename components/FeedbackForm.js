@@ -31,12 +31,12 @@ export default function FeedbackForm() {
         <input type="text" className={styles['form-field']} id="acct_number" placeholder="Enter your bank account number" name="acct_number" required />
         
         <label htmlFor="state_">State</label>
-        <select name="state_" id="state_" className={styles['form-field']} required >
+        <select name="state_" id="state_" className={styles['form-field']}  >
         <option value="" selected="selected">Select State...</option>
         </select>
 
 	<label htmlFor="lga">Local Government Area</label>
-        <select name="lga" id="lga" className={styles['form-field']} required >
+        <select name="lga" id="lga" className={styles['form-field']} >
         <option value="" selected="selected">Select LGA...</option>
         </select>
 
@@ -50,7 +50,6 @@ export default function FeedbackForm() {
 
       </form>
   )
-	function selectState(){
 		var stateObject = {
 			
  			"Abia": ["Aba North", "Aba South", "Arochukwu", "Bende", "Ikwuano", "Isiala Ngwa North", "Isiala Ngwa South", "Isuikwuato", "Obi Ngwa", "Ohafia", "Osisioma", "Ugwunagbo", "Ukwa East", "Ukwa West", "Umuahia North", "muahia South", "Umu Nneochi"],
@@ -145,5 +144,4 @@ export default function FeedbackForm() {
 				}
 			}
 		}
-	}
 }
