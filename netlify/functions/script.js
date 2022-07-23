@@ -2,6 +2,7 @@ var stateObject = {
 	"Abia": {"Aba North": [], "Aba South": [], "Arochukwu": [], "Bende": [], "Ikwuano": [], "Isiala Ngwa North": [], "Isiala Ngwa South": [], "Isuikwuato": [], "Obi Ngwa": [], "Ohafia": [], "Osisioma": [], "Ugwunagbo": [], "Ukwa East": [], "Ukwa West": [], "Umuahia North": [], "muahia South": [], "Umu Nneochi": []},
 	
 	"Adamawa": {"Demsa": [], "Fufure": [], "Ganye": [], "Gayuk": [], "Gombi": [], "Grie": [], "Hong": [], "Jada": [], "Larmurde": [], "Madagali": [], "Maiha": [], "Mayo Belwa": [], "Michika": [], "Mubi North": [], "Mubi South": [], "Numan": [], "Shelleng": [], "Song": [], "Toungo": [], "Yola North": [], "Yola South": []},      
+	
 	"AkwaIbom": {"Abak": [], "Eastern Obolo": [], "Eket": [], "Esit Eket": [], "Essien Udim": [], "Etim Ekpo": [], "Etinan": [], "Ibeno": [], "Ibesikpo Asutan": [], "Ibiono-Ibom": [], "Ika": [], "Ikono": [], "Ikot Abasi": [], "Ikot Ekpene": [], "Ini": [], "Itu": [], "Mbo": [], "Mkpat-Enin": [], "Nsit-Atai": [], "Nsit-Ibom": [], "Nsit-Ubium": [], "Obot Akara": [], "Okobo": [], "Onna": [], "Oron": [], "Oruk Anam": [], "Udung-Uko": [], "Ukanafun": [], "Uruan": [], "Urue-Offong Oruko": [], "Uyo": []},
 
 	"Anambra": {"Aguata": [], "Anambra East": [], "Anambra West": [], "Anaocha": [], "Awka North": [], "Awka South": [], "Ayamelum": [], "Dunukofia": [], "Ekwusigo": [], "Idemili North": [], "Idemili South": [], "Ihiala": [], "Njikoka": [], "Nnewi North": [], "Nnewi South": [], "Ogbaru": [], "Onitsha North": [], "Onitsha South": [], "Orumba North": [], "Orumba South": [], "Oyi": []},
@@ -74,19 +75,19 @@ var stateObject = {
       		}
 
 window.onload = function() {
-var stateSel = document.getElementById("state_");
-var lgaSel = document.getElementById("lga");
-
-for (var x in stateObject) {
-	stateSel.options[stateSel.options.length] = new Option(x, x);
-}
-
-stateSel.onchange = function() {
-	//empty lga dropdowns
-    	lgaSel.length = 1;
-    	//display correct values
-    	for (var y in stateObject[this.value]) {
-        lgaSel.options[lgaSel.options.length] = new Option(y, y);
+	var stateSel = document.getElementById("state_");
+	var lgaSel = document.getElementById("lga");
+	
+	for (var x in stateObject) {
+		stateSel.options[stateSel.options.length] = new Option(x, x);
 	}
-}
+	
+	stateSel.onchange = function() {
+		//empty lga dropdowns
+		lgaSel.length = 1;
+		//display correct values
+		for (var y in stateObject[this.value]) {
+			lgaSel.options[lgaSel.options.length] = new Option(y, y);
+		}
+	}
 }
