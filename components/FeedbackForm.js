@@ -59,7 +59,8 @@ export default function FeedbackForm() {
         <button className={styles.button} type="submit">Submit</button>
       </form>
 
-      <script stateObject = {
+      <script
+	const stateObject = {
 	      "Abia": {"Aba North": [], "Aba South": [], "Arochukwu": [], "Bende": [], "Ikwuano": [], "Isiala Ngwa North": [], "Isiala Ngwa South": [], "Isuikwuato": [], "Obi Ngwa": [], "Ohafia": [], "Osisioma": [], "Ugwunagbo": [], "Ukwa East": [], "Ukwa West": [], "Umuahia North": [], "muahia South": [], "Umu Nneochi": []},
 	      
 	      "Adamawa": {"Demsa": [], "Fufure": [], "Ganye": [], "Gayuk": [], "Gombi": [], "Grie": [], "Hong": [], "Jada": [], "Larmurde": [], "Madagali": [], "Maiha": [], "Mayo Belwa": [], "Michika": [], "Mubi North": [], "Mubi South": [], "Numan": [], "Shelleng": [], "Song": [], "Toungo": [], "Yola North": [], "Yola South": []},
@@ -135,17 +136,17 @@ export default function FeedbackForm() {
 	      "Zamfara": {"Anka": [], "Bakura": [], "Birnin Magaji Kiyaw": [], "Bukkuyum": [], "Bungudu": [], "Gummi": [], "Gusau": [], "Kaura Namoda": [], "Maradun": [], "Maru": [], "Shinkafi": [], "Talata Mafara": [], "Chafe": [], "Zurmi": []}
       		}
 	window.onload = function() {
-  	var stateSel = document.getElementById("state_");
- 	var lgaSel = document.getElementById("lga");
+  	const stateSel = document.getElementById("state_");
+ 	const lgaSel = document.getElementById("lga");
 
- 	for (var x in stateObject) {
+ 	for (const x in stateObject) {
 		stateSel.options[stateSel.options.length] = new Option(x, x);
 	}
   	stateSel.onchange = function() {
     	//empty lga dropdowns
     	lgaSel.length = 1;
     	//display correct values
-    	for (var y in stateObject[this.value]) {
+    	for (const y in stateObject[this.value]) {
 		lgaSel.options[lgaSel.options.length] = new Option(y, y);
 	
 	}}}>
