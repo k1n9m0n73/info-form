@@ -17,14 +17,20 @@ export default function FeedbackForm() {
             </label>
         </p>
   
-        <label htmlFor="name">Name</label>
-        <input id="name" className={styles['form-field']} type="text" name="name" />
+        <label htmlFor="First Name">Name</label>
+        <input id="first_name" className={styles['form-field']} type="text" name="first_name" />
+          
+        <label htmlFor="Last Name">Name</label>
+        <input id="last_name" className={styles['form-field']} type="text" name="last_name" />
 
         <label htmlFor="email">Email</label>
         <input id="email" className={styles['form-field']} type="email" name="email" required />
 
         <label htmlFor="feedback">What is your feedback?</label>
         <textarea id="feedback" className={styles['form-field']} wrap="soft" name="feedback" required></textarea>
+
+
+
         <button className={styles.button} type="submit">Submit</button>
       </form>
   )
