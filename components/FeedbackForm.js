@@ -14,7 +14,8 @@ export default function FeedbackForm() {
         name="feedback"
         method="POST"
         action="/success"
-      >
+        >
+
         <input type="hidden" name="form-name" value="feedback" />
         <p className={styles.hidden}>
             <label>
@@ -53,7 +54,7 @@ export default function FeedbackForm() {
         <button className={styles.button} type="submit">Submit</button>
 
       </form>
-	<script src="/netlify/functions/script.js></script>
+<script src="/netlify/functions/script.js"></script>
 
 	</body>
 	</html>
