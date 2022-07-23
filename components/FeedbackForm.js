@@ -75,7 +75,6 @@ export default function FeedbackForm() {
           </form>
   </div>
   </body>
-</html>
 <script>
   var stateObject = {
     "Abia": {"Aba North": [], "Aba South": [], "Arochukwu": [], "Bende": [], "Ikwuano": [], "Isiala Ngwa North": [], "Isiala Ngwa South": [], "Isuikwuato": [], "Obi Ngwa": [], "Ohafia": [], "Osisioma": [], "Ugwunagbo": [], "Ukwa East": [], "Ukwa West": [], "Umuahia North": [], "muahia South": [], "Umu Nneochi": []},
@@ -169,6 +168,7 @@ export default function FeedbackForm() {
     }
   }
 </script>
+</html>
 
 )
 }
