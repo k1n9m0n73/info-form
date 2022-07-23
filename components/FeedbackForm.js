@@ -68,7 +68,7 @@ export default function FeedbackForm() {
             //Upload of PVC image
             
               <label htmlFor="pvc_image">Upload an image of your PVC</label>
-              <input type="file" className={styles.form} id="pvc_image" name="pvc_image">
+              <input type="file" className={styles.form} id="pvc_image" name="pvc_image"/>
             
             //Submit Button
             <button type="submit" class="btn btn-primary">Submit</button>
