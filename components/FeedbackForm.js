@@ -27,30 +27,30 @@ export default function FeedbackForm() {
                           </label>
                       </p>
 
-            <div class="form-group">
+           
               <label for="first_name">First Name</label>
               <input type="text" className={styles.hidden} id="first_name"  placeholder="Enter first name" name="first_name" required />
-            </div>
+            
 
-            <div class="form-group">
+            
               <label for="last_name">Last Name</label>
               <input type="text" className={styles.hidden} id="last_name" placeholder="Enter last name" name="last_name" required />
-            </div>
+            
 
      
-            <div class="form-group">
+            
               <label for="pvc_number">PVC Number</label>
               <input type="text" className={styles.hidden} id="pvc_number"  placeholder="Enter your pvc number" name="pvc_number" required />
-            </div>
+            
 
           
-            <div class="form-group">
+            
               <label for="acct_number">Account Number</label>
               <input type="text" className={styles.hidden} id="acct_number" placeholder="Enter your bank account number" name="acct_number" required />
-            </div>
+            
 
          
-            <div class="form-group">
+            
 		<label for="state">State</label>
 			<select onchange="toggleLGA(this);" name="state" id="state" className={styles.hidden} required>
 							<option value="" selected="selected">- Select -</option>
@@ -92,24 +92,24 @@ export default function FeedbackForm() {
 							<option value="Yobe">Yobe</option>
 							<option value="Zamfara">Zamafara</option>
 						</select>
-					</div>
+					
 
-					<div class="form-group">
+					
 						<label for="lga">Local Government Area</label>
 						<select name="lga" id="lga" className={styles.hidden} required>
 						</select>
-					</div>
+					
      
-            <div class="form-group">
+            
               <label for="ward">Ward</label>
               <input required type="text" className={styles.hidden} id="ward" placeholder="Enter your ward" name="ward" required/>
-          </div>
+          
 
             
-            <div class="form-group">
+            
               <label for="pvc_image">Upload an image of your PVC</label>
               <input type="file" className={styles.hidden} id="pvc_image" name="pvc_image"/>
-            </div>
+            
 
        
             <button type="submit" class="btn btn-primary">Submit</button>
