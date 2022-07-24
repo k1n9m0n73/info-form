@@ -11,7 +11,6 @@ export default function FeedbackForm() {
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
   </head>
   <body>
-    <div className={styles.form}>
             
                 <form
                       className={styles.form}
@@ -38,19 +37,19 @@ export default function FeedbackForm() {
               <input type="text" className={styles.hidden} id="last_name" placeholder="Enter last name" name="last_name" required />
             </div>
 
-            //PVC Number
+     
             <div class="form-group">
               <label for="pvc_number">PVC Number</label>
               <input type="text" className={styles.hidden} id="pvc_number"  placeholder="Enter your pvc number" name="pvc_number" required />
             </div>
 
-            //Account Number
+          
             <div class="form-group">
               <label for="acct_number">Account Number</label>
               <input type="text" className={styles.hidden} id="acct_number" placeholder="Enter your bank account number" name="acct_number" required />
             </div>
 
-            //State
+         
             <div class="form-group">
 		<label for="state">State</label>
 			<select onchange="toggleLGA(this);" name="state" id="state" className={styles.hidden} required>
@@ -116,7 +115,6 @@ export default function FeedbackForm() {
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
 
-</div>
 <script src="components/lga.js"></script>
 </body>
 </html>
