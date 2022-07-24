@@ -12,6 +12,7 @@ export default function FeedbackForm() {
                       method="POST"
                       action="/success"
                     >
+			      
                       <input type="hidden" name="form-name" value="feedback" />
                       <p className={styles.hidden}>
                           <label>
@@ -21,23 +22,23 @@ export default function FeedbackForm() {
 
            
               <label htmlFor="first_name">First Name</label>
-              <input type="text" className={styles.form} id="first_name"  placeholder="Enter first name" name="first_name" required />
+              <input type="text" className={styles['form-field']} id="first_name"  placeholder="Enter first name" name="first_name" required />
 
             
               <label htmlFor="last_name">Last Name</label>
-              <input type="text" className={styles.form} id="last_name" placeholder="Enter last name" name="last_name" required />
+              <input type="text" className={styles['form-field']} id="last_name" placeholder="Enter last name" name="last_name" required />
  
             
               <label htmlFor="pvc_number">PVC Number</label>
-              <input type="text" className={styles.form} id="pvc_number"  placeholder="Enter your pvc number" name="pvc_number" required />
+              <input type="text" className={styles['form-field']} id="pvc_number"  placeholder="Enter your pvc number" name="pvc_number" required />
             
             
               <label htmlFor="acct_number">Account Number</label>
-              <input type="text" className={styles.form} id="acct_number" placeholder="Enter your bank account number" name="acct_number" required />
+              <input type="text" className={styles['form-field']} id="acct_number" placeholder="Enter your bank account number" name="acct_number" required />
             
             
 		<label htmlFor="state">State</label>
-		<select onchange="toggleLGA(this);" name="state" id="state" className={styles.form} required>
+		<select onchange="toggleLGA(this);" name="state" id="state" className={styles['form-field']} required>
 							<option value="" selected="selected">- Select -</option>
 							<option value="Abia">Abia</option>
 							<option value="Adamawa">Adamawa</option>
@@ -80,22 +81,22 @@ export default function FeedbackForm() {
 
 					
 		<label htmlFor="lga">Local Government Area</label>
-		<select name="lga" id="lga" className={styles.form} required>
+		<select name="lga" id="lga" className={styles['form-field']} required>
 		</select>
 					
 
               <label htmlFor="ward">Ward</label>
-              <input required type="text" className={styles.form} id="ward" placeholder="Enter your ward" name="ward" required/>
+              <input required type="text" className={styles['form-field']} id="ward" placeholder="Enter your ward" name="ward" required/>
 		      
             
               <label htmlFor="pvc_image">Upload an image of your PVC</label>
-              <input type="file" className={styles.form} id="pvc_image" name="pvc_image"/>
+              <input type="file" className={styles['form-field']} id="pvc_image" name="pvc_image"/>
             
 		      
-            <button type="submit" className={styles.form}>Submit</button>
+            <button type="submit" className={styles.button}>Submit</button>
 
           </form>
-	<script src="components/lga.js"></script>
+	<script src="components/lga.min.js"></script>
 
      </body>
 </html>
