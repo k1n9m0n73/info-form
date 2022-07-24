@@ -97,9 +97,10 @@ export default function FeedbackForm() {
 
           </form>
      </body>
+	
+	<script src="jquery.js" type="text/javascript"></script>
+	<script type="javascript" src="js/state.js"></script>
 
 </html>
-		<script src="jquery.js" type="text/javascript"></script>
-		<script type="javascript" src="js/state.js"></script>
 )
 }
