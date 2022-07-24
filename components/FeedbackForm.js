@@ -4,10 +4,15 @@ export default function FeedbackForm() {
   return (
 
 <html lang="en">
-
-  <body>
-            
-                <form
+  <head>
+    <title>Data Form</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+	</head>
+	  <body>
+	  <div className={styles.hidden}>
+ 	 <form
                       className={styles.form}
                       data-netlify="true"
                       data-netlify-honeypot="bot-field"
@@ -23,31 +28,24 @@ export default function FeedbackForm() {
                       </p>
 
            
-              <label for="first_name">First Name</label>
+              <label htmlFor="first_name">First Name</label>
               <input type="text" className={styles.hidden} id="first_name"  placeholder="Enter first name" name="first_name" required />
-            
 
             
-              <label for="last_name">Last Name</label>
+              <label htmlFor="last_name">Last Name</label>
               <input type="text" className={styles.hidden} id="last_name" placeholder="Enter last name" name="last_name" required />
+ 
             
-
-     
-            
-              <label for="pvc_number">PVC Number</label>
+              <label htmlFor="pvc_number">PVC Number</label>
               <input type="text" className={styles.hidden} id="pvc_number"  placeholder="Enter your pvc number" name="pvc_number" required />
             
-
-          
             
-              <label for="acct_number">Account Number</label>
+              <label htmlFor="acct_number">Account Number</label>
               <input type="text" className={styles.hidden} id="acct_number" placeholder="Enter your bank account number" name="acct_number" required />
             
-
-         
             
-		<label for="state">State</label>
-			<select onchange="toggleLGA(this);" name="state" id="state" className={styles.hidden} required>
+		<label htmlFor="state">State</label>
+		<select onchange="toggleLGA(this);" name="state" id="state" className={styles.hidden} required>
 							<option value="" selected="selected">- Select -</option>
 							<option value="Abia">Abia</option>
 							<option value="Adamawa">Adamawa</option>
@@ -87,26 +85,21 @@ export default function FeedbackForm() {
 							<option value="Yobe">Yobe</option>
 							<option value="Zamfara">Zamafara</option>
 						</select>
-					
 
 					
-						<label for="lga">Local Government Area</label>
-						<select name="lga" id="lga" className={styles.hidden} required>
+		<label htmlFor="lga">Local Government Area</label>
+		<select name="lga" id="lga" className={styles.hidden} required>
 						</select>
 					
-     
-            
-              <label for="ward">Ward</label>
-              <input required type="text" className={styles.hidden} id="ward" placeholder="Enter your ward" name="ward" required/>
-          
 
+              <label htmlFor="ward">Ward</label>
+              <input required type="text" className={styles.hidden} id="ward" placeholder="Enter your ward" name="ward" required/>
+		      
             
-            
-              <label for="pvc_image">Upload an image of your PVC</label>
+              <label htmlFor="pvc_image">Upload an image of your PVC</label>
               <input type="file" className={styles.hidden} id="pvc_image" name="pvc_image"/>
             
-
-       
+		      
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
 
