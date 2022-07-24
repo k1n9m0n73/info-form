@@ -73,7 +73,7 @@ export default function FeedbackForm() {
             //Wards
             <div class="form-group">
               <label for="ward">Ward</label>
-              <input required type="text" className={styles.hidden} id="ward" aria-describedby="emailHelp" placeholder="Enter your ward" name="ward" required>
+              <input required type="text" className={styles.hidden} id="ward" aria-describedby="emailHelp" placeholder="Enter your ward" name="ward" required/>
               </select>
           </div>
 
