@@ -1,5 +1,4 @@
 import styles from './FeedbackForm.module.css'
-import script from './lga.js'
 
 export default function FeedbackForm() {
   return (
@@ -97,7 +96,6 @@ export default function FeedbackForm() {
             <button type="submit" className={styles.button}>Submit</button>
 
           </form>
-		<script/>
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
 		crossorigin="anonymous"></script>
@@ -107,7 +105,7 @@ export default function FeedbackForm() {
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
 		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
 		crossorigin="anonymous"></script>
-		<script src="components/lga.min.js"></script>
+		<script src="/components/lga.min.js"></script>
 
 
      </body>
