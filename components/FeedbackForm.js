@@ -2,16 +2,6 @@ import styles from './FeedbackForm.module.css'
 
 export default function FeedbackForm() {
   return (
-
-<html lang="en">
-  <head>
-    <title>Data Form</title>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
-	</head>
-	  <body>
-	  <div className={styles.hidden}>
  	 <form
                       className={styles.form}
                       data-netlify="true"
@@ -102,11 +92,6 @@ export default function FeedbackForm() {
 		      
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
-
 	<script src="components/lga.js"></script>
-</div>
-</body>
-</html>
-
 )
 }
