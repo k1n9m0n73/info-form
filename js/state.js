@@ -72,7 +72,7 @@ var Yobe = ['Select item...', 'Bade', 'Bursari', 'Damaturu', 'Fika', 'Fune', 'Ge
 
 var Zamfara = ['Select item...', 'Anka', 'Bakura', 'Birnin Magaji Kiyaw', 'Bukkuyum', 'Bungudu', 'Gummi', 'Gusau', 'Kaura Namoda', 'Maradun', 'Maru', 'Shinkafi', 'Talata Mafara', 'Chafe', 'Zurmi'];
 
-$('#ostate').change(function () {
+$('#state').change(function () {
     var $option = $(this).find('option:selected');
     var value = $option.val();
     var sid = eval(value);
