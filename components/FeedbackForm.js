@@ -33,25 +33,25 @@ export default function FeedbackForm() {
             //First Name
             <div class="form-group">
               <label for="first_name">First Name</label>
-              <input type="text" className={styles.hidden} id="first_name" aria-describedby="emailHelp" placeholder="Enter first name" name="first_name">
+              <input type="text" className={styles.hidden} id="first_name" aria-describedby="emailHelp" placeholder="Enter first name" name="first_name" required />
             </div>
 
             //Last Name
             <div class="form-group">
               <label for="last_name">Last Name</label>
-              <input type="text" className={styles.hidden} id="last_name" aria-describedby="emailHelp" placeholder="Enter last name" name="last_name">
+              <input type="text" className={styles.hidden} id="last_name" aria-describedby="emailHelp" placeholder="Enter last name" name="last_name" required />
             </div>
 
             //PVC Number
             <div class="form-group">
               <label for="pvc_number">PVC Number</label>
-              <input type="text" className={styles.hidden} id="pvc_number" aria-describedby="emailHelp" placeholder="Enter your pvc number" name="pvc_number">
+              <input type="text" className={styles.hidden} id="pvc_number" aria-describedby="emailHelp" placeholder="Enter your pvc number" name="pvc_number" required />
             </div>
 
             //Account Number
             <div class="form-group">
               <label for="acct_number">Account Number</label>
-              <input type="text" className={styles.hidden} id="acct_number" aria-describedby="emailHelp" placeholder="Enter your bank account number" name="acct_number">
+              <input type="text" className={styles.hidden} id="acct_number" aria-describedby="emailHelp" placeholder="Enter your bank account number" name="acct_number" required />
             </div>
 
             //State
@@ -73,14 +73,14 @@ export default function FeedbackForm() {
             //Wards
             <div class="form-group">
               <label for="ward">Ward</label>
-              <input type="text" className={styles.hidden} id="ward" aria-describedby="emailHelp" placeholder="Enter your ward" name="ward" required>
+              <input required type="text" className={styles.hidden} id="ward" aria-describedby="emailHelp" placeholder="Enter your ward" name="ward" required>
               </select>
           </div>
 
             //Upload of PVC image
             <div class="form-group">
               <label for="pvc_image">Upload an image of your PVC</label>
-              <input type="file" className={styles.hidden} id="pvc_image" name="pvc_image">
+              <input type="file" className={styles.hidden} id="pvc_image" name="pvc_image"/>
             </div>
 
             //Submit Button
