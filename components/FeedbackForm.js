@@ -12,8 +12,6 @@ export default function FeedbackForm() {
   </head>
   <body>
     <div className={styles.form}>
-      <div class="card">
-        <div class="card-body">  
             
                 <form
                       className={styles.form}
@@ -30,34 +28,32 @@ export default function FeedbackForm() {
                           </label>
                       </p>
 
-            //First Name
             <div class="form-group">
               <label for="first_name">First Name</label>
-              <input type="text" className={styles.hidden} id="first_name" aria-describedby="emailHelp" placeholder="Enter first name" name="first_name" required />
+              <input type="text" className={styles.hidden} id="first_name"  placeholder="Enter first name" name="first_name" required />
             </div>
 
-            //Last Name
             <div class="form-group">
               <label for="last_name">Last Name</label>
-              <input type="text" className={styles.hidden} id="last_name" aria-describedby="emailHelp" placeholder="Enter last name" name="last_name" required />
+              <input type="text" className={styles.hidden} id="last_name" placeholder="Enter last name" name="last_name" required />
             </div>
 
             //PVC Number
             <div class="form-group">
               <label for="pvc_number">PVC Number</label>
-              <input type="text" className={styles.hidden} id="pvc_number" aria-describedby="emailHelp" placeholder="Enter your pvc number" name="pvc_number" required />
+              <input type="text" className={styles.hidden} id="pvc_number"  placeholder="Enter your pvc number" name="pvc_number" required />
             </div>
 
             //Account Number
             <div class="form-group">
               <label for="acct_number">Account Number</label>
-              <input type="text" className={styles.hidden} id="acct_number" aria-describedby="emailHelp" placeholder="Enter your bank account number" name="acct_number" required />
+              <input type="text" className={styles.hidden} id="acct_number" placeholder="Enter your bank account number" name="acct_number" required />
             </div>
 
             //State
             <div class="form-group">
-						<label class="control-label">State</label>
-						<select onchange="toggleLGA(this);" name="state" id="state" class="form-control">
+		<label for="state">State</label>
+			<select onchange="toggleLGA(this);" name="state" id="state" className={styles.hidden} required>
 							<option value="" selected="selected">- Select -</option>
 							<option value="Abia">Abia</option>
 							<option value="Adamawa">Adamawa</option>
@@ -100,30 +96,28 @@ export default function FeedbackForm() {
 					</div>
 
 					<div class="form-group">
-						<label class="control-label">LGA of Origin</label>
-						<select name="lga" id="lga" class="form-control select-lga" required>
+						<label for="lga">Local Government Area</label>
+						<select name="lga" id="lga" className={styles.hidden} required>
 						</select>
 					</div>
-
-            //Wards
+     
             <div class="form-group">
               <label for="ward">Ward</label>
-              <input required type="text" className={styles.hidden} id="ward" aria-describedby="emailHelp" placeholder="Enter your ward" name="ward" required/>
+              <input required type="text" className={styles.hidden} id="ward" placeholder="Enter your ward" name="ward" required/>
           </div>
 
-            //Upload of PVC image
+            
             <div class="form-group">
               <label for="pvc_image">Upload an image of your PVC</label>
               <input type="file" className={styles.hidden} id="pvc_image" name="pvc_image"/>
             </div>
 
-            //Submit Button
+       
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
-    </div>
-  </div>
+
 </div>
-<script src="components/lga.min.js"></script>
+<script src="components/lga.js"></script>
 </body>
 </html>
 
