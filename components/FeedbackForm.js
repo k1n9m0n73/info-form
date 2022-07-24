@@ -74,7 +74,6 @@ export default function FeedbackForm() {
             <div class="form-group">
               <label for="ward">Ward</label>
               <input required type="text" className={styles.hidden} id="ward" aria-describedby="emailHelp" placeholder="Enter your ward" name="ward" required/>
-              </select>
           </div>
 
             //Upload of PVC image
