@@ -122,6 +122,7 @@ export default function FeedbackForm() {
           </form>
     </div>
   </div>
+</div>
 <script src="components/lga.min.js"></script>
 </body>
 </html>
