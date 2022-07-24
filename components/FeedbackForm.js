@@ -39,7 +39,7 @@ export default function FeedbackForm() {
             
 		<label htmlFor="state">State</label>
 		<select onchange="toggleLGA(this);" name="state" id="state" className={styles['form-field']} required>
-							<option value="" selected="selected">- Select -</option>
+							<option value="" selected="selected">Select State ...</option>
 							<option value="Abia">Abia</option>
 							<option value="Adamawa">Adamawa</option>
 							<option value="AkwaIbom">AkwaIbom</option>
