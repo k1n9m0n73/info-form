@@ -1,5 +1,7 @@
+export default function script() {
+
 // Get rid of small loading animation
-  [...document.querySelectorAll(".input-location-dependant")].forEach(element =>
+ [...document.querySelectorAll(".input-location-dependant")].forEach(element =>
     element.classList.toggle("d-none")
   );
 
@@ -916,3 +918,4 @@
       lgaSelect.appendChild(opt);
     });
   };
+}
