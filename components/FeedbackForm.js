@@ -96,12 +96,10 @@ export default function FeedbackForm() {
             <button type="submit" className={styles.button}>Submit</button>
 
           </form>
-		<script src="js/jquery.js" type="text/javascript"></script>
-		<script type="text/javascript" src="js/state.js"></script>
-
-
      </body>
-</html>
 
+</html>
+		<script src="jquery.js" type="text/javascript"></script>
+		<script type="javascript" src="js/state.js"></script>
 )
 }
