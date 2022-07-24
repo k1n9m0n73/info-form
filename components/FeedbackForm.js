@@ -91,7 +91,8 @@ export default function FeedbackForm() {
             
 		      
             <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+          </form>,
+
 	<script src="components/lga.js"></script>
 )
 }
