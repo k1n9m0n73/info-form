@@ -2,8 +2,7 @@ import styles from './FeedbackForm.module.css'
 
 export default function FeedbackForm() {
   return (
-	  
-	<!DOCTYPE html>
+
 <html lang="en">
   <head>
     <title>Data Form</Form></title>
@@ -31,31 +30,31 @@ export default function FeedbackForm() {
                           </label>
                       </p>
 
-            <!--First Name-->
+            //First Name
             <div class="form-group">
               <label for="first_name">First Name</label>
               <input type="text" className={styles.hidden} id="first_name" aria-describedby="emailHelp" placeholder="Enter first name" name="first_name">
             </div>
 
-            <!--Last Name-->
+            //Last Name
             <div class="form-group">
               <label for="last_name">Last Name</label>
               <input type="text" className={styles.hidden} id="last_name" aria-describedby="emailHelp" placeholder="Enter last name" name="last_name">
             </div>
 
-            <!--PVC Number-->
+            //PVC Number
             <div class="form-group">
               <label for="pvc_number">PVC Number</label>
               <input type="text" className={styles.hidden} id="pvc_number" aria-describedby="emailHelp" placeholder="Enter your pvc number" name="pvc_number">
             </div>
 
-            <!--Account Number-->
+            //Account Number
             <div class="form-group">
               <label for="acct_number">Account Number</label>
               <input type="text" className={styles.hidden} id="acct_number" aria-describedby="emailHelp" placeholder="Enter your bank account number" name="acct_number">
             </div>
 
-            <!--State-->
+            //State
             <div class="form-group">
               <label for="state_">State</label>
               <select required name="state_" id="state_" className={styles.hidden}>
@@ -63,7 +62,7 @@ export default function FeedbackForm() {
             </select>
             </div> 
 
-            <!--Local Government Areas-->       
+            //Local Government Areas       
             <div class="form-group">
               <label for="lga">Local Government Area</label>
                 <select required name="lga" id="lga" className={styles.hidden}>
@@ -71,20 +70,20 @@ export default function FeedbackForm() {
                 </select>
             </div>
 
-            <!--Wards-->
+            //Wards
             <div class="form-group">
               <label for="ward">Ward</label>
               <input type="text" className={styles.hidden} id="ward" aria-describedby="emailHelp" placeholder="Enter your ward" name="ward" required>
               </select>
           </div>
 
-            <!--Upload of PVC image-->
+            //Upload of PVC image
             <div class="form-group">
               <label for="pvc_image">Upload an image of your PVC</label>
               <input type="file" className={styles.hidden} id="pvc_image" name="pvc_image">
             </div>
 
-            <!--Submit Button-->
+            //Submit Button
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
     </div>
