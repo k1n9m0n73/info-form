@@ -96,8 +96,8 @@ export default function FeedbackForm() {
             <button type="submit" className={styles.button}>Submit</button>
 
           </form>
-		<script src="js/helloworld.js"></script>
-		<script src="js/lga.js"></script>
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<script type="text/javascript" src="js/state.js"></script>
 
 
      </body>
