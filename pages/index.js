@@ -19,7 +19,7 @@ export default function Home() {
 
         </p>
         <FeedbackForm />
-        <JokeBlock />
+     
       </main>
       <Footer />
     </div>
