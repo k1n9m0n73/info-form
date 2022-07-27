@@ -51,7 +51,7 @@ export default function FeedbackForm() {
 							<option value="Access Bank">Access Bank</option> 
 							<option value="AccessMobile">AccessMobile</option>
 							<option value="Accion Microfinance Bank">Accion Microfinance Bank</option>
-			
+							</select>
 			
             
 		<label htmlFor="state">State</label>
