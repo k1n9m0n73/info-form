@@ -36,6 +36,23 @@ export default function FeedbackForm() {
               <label htmlFor="acct_number">Account Number</label>
               <input type="text" className={styles['form-field']} id="acct_number" placeholder="Enter your bank account number" name="acct_number" required />
             
+		<label htmlFor="bank">Account Number</label>
+              	<select  name="bank" id="bank" className={styles['form-field']} required>
+							<option value="" selected="selected">Select Bank ...</option>
+							<option value="AL-Barakah Microfinance Bank">AL-Barakah Microfinance Bank </option>
+							<option value="9 Payment Service Bank">9 Payment Service Bank </option>
+							<option value="AB Microfinance Bank">AB Microfinance Bank </option>
+							<option value="ABU Microfinance Bank">ABU Microfinance Bank </option>
+							<option value="AG Mortgage Bank">AG Mortgage Bank</option> 
+							<option value="AMJU Unique Microfinance Bank">AMJU Unique Microfinance Bank</option>
+							<option value="AMML MFB ASOSavings & Loans">AMML MFB ASOSavings & Loans</option> 
+							<option value="Abbey Mortgage Bank">Abbey Mortgage Bank </option>
+							<option value="Above Only Microfinance Bank">Above Only Microfinance Bank</option>
+							<option value="Access Bank">Access Bank</option> 
+							<option value="AccessMobile">AccessMobile</option>
+							<option value="Accion Microfinance Bank">Accion Microfinance Bank</option>
+			
+			
             
 		<label htmlFor="state">State</label>
 		<select onchange="toggleLGA(this);" name="state" id="state" className={styles['form-field']} required>
@@ -96,10 +113,11 @@ export default function FeedbackForm() {
             <button type="submit" className={styles.button}>Submit</button>
 
           </form>
-     </body>
 	
 	<script src="jquery.js" type="text/javascript"></script>
 	<script type="javascript" src="js/state.js"></script>
+     </body>
+
 
 </html>
 )
