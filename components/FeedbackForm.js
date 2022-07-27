@@ -5,7 +5,7 @@ export default function FeedbackForm() {
   return ( 
 	 <html>
 	  <body>
-	  	<script src="./js/lga.min.js"/>
+	  	<Script src="./js/lga.min.js"/>
  	 <form
                       className={styles.form}
                       data-netlify="true"
