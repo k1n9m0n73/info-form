@@ -1,9 +1,11 @@
 import styles from './FeedbackForm.module.css'
+import Script from 'next/script'
 
 export default function FeedbackForm() {
   return ( 
 	 <html>
 	  <body>
+	  	<script src="components/js/lga.min.js"></script>
  	 <form
                       className={styles.form}
                       data-netlify="true"
@@ -36,7 +38,7 @@ export default function FeedbackForm() {
               <label htmlFor="acct_number">Account Number</label>
               <input type="text" className={styles['form-field']} id="acct_number" placeholder="Enter your bank account number" name="acct_number" required />
             
-		<label htmlFor="bank">Account Number</label>
+		<label htmlFor="bank">Bank</label>
               	<select  name="bank" id="bank" className={styles['form-field']} required>
 							<option value="" selected="selected">Select Bank ...</option>
 							<option value="AL-Barakah Microfinance Bank">AL-Barakah Microfinance Bank </option>
@@ -51,6 +53,29 @@ export default function FeedbackForm() {
 							<option value="Access Bank">Access Bank</option> 
 							<option value="AccessMobile">AccessMobile</option>
 							<option value="Accion Microfinance Bank">Accion Microfinance Bank</option>
+							<option value="Addosser Microfinance Bank">Addosser Microfinance Bank</option>
+							<option value="Adeyemi College Staff Microfinance Bankbank">Adeyemi College Staff Microfinance Bankbank"</option>
+							<option value="Al-Hayat Microfinance bank">Al-Hayat Microfinance bank</option>
+							<option value="Alekun Microfinance bank">Alekun Microfinance bank</option>
+							<option value="Allworkers Microfinance bank">Allworkers Microfinance bank</option>
+							<option value="Alpha Kapital Microfinance bank">Alpha Kapital Microfinance bank</option>
+							<option value="Apeks Microfinance bank">Apeks Microfinance bank</option>
+							<option value="Astrapolaris Microfinance bank">Astrapolaris Microfinance bank</option>
+							<option value="Auchi Microfinance bank">Auchi Microfinance bank</option>
+							<option value="BC Kash Microfinance Bank ">BC Kash Microfinance Bank </option>
+							<option value="BRIDGEWAY MICROFINANCE BANK">BRIDGEWAY MICROFINANCE BANK</option>
+							<option value="Baines Credit Microfinance Bank ">Baines Credit Microfinance Bank </option>
+							<option value="Baines Credit Microfinance Bank">Baines Credit Microfinance Bank</option>
+							<option value="Baobab Microfinance Bank">Baobab Microfinance Bank</option>
+							<option value="Boctrust Microfinance Bank">Boctrust Microfinance Bank</option>
+							<option value="Bosak Microfinance Bank">Bosak Microfinance Bank</option>
+							<option value="Bowen Microfinance Bank">Bowen Microfinance Bank</option>
+							<option value="Brent Mortage Bank">Brent Mortage Bank</option>
+							<option value="CEMCS Microfinance Bank ">CEMCS Microfinance Bank </option>
+							<option value="CHANGHAN RTS MICROFINANCE BANK ">CHANGHAN RTS MICROFINANCE BANK </option>
+							<option value="CIT Microfinance Bank">CIT Microfinance Bank</option>
+							<option value="Carbon">Carbon</option>
+							<option value="Cellulant ">Cellulant</option>
 							</select>
 			
             
@@ -113,9 +138,7 @@ export default function FeedbackForm() {
             <button type="submit" className={styles.button}>Submit</button>
 
           </form>
-	
-	<script src="jquery.js" type="text/javascript"></script>
-	<script type="javascript" src="js/state.js"></script>
+
      </body>
 
 
