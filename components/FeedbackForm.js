@@ -76,6 +76,33 @@ export default function FeedbackForm() {
 							<option value="CIT Microfinance Bank">CIT Microfinance Bank</option>
 							<option value="Carbon">Carbon</option>
 							<option value="Cellulant ">Cellulant</option>
+							<option value="ChamsMobile ">ChamsMobile </option>
+							<option value="Chikum Microfinance Bank">Chikum Microfinance Bank</option>
+							<option value="Citi Bank">Citi Bank</option>
+							<option value="Consumer Microfinance Bank">Consumer Microfinance Bank</option>
+							<option value="Contec Global Infotech Limited (NowNow)">Contec Global Infotech Limited (NowNow)</option>
+							<option value="Coronation Merchant Bank ">Coronation Merchant Bank </option>
+							<option value="Covenant Microfinance Bank ">Covenant Microfinance Bank </option>
+							<option value="Credit Afrique Microfinance Bank ">Credit Afrique Microfinance Bank </option>
+							<option value="Daylight Microfinance Bank ">Daylight Microfinance Bank </option>
+							<option value="Eartholeum EcoBank PLC ">EcoMobile </option>
+							<option value="Ecobank Xpress Account ">Ecobank Xpress Account </option>
+							<option value="Ekondo MFB ">Ekondo MFB </option>
+							<option value="Emeralds Microfinance Bank ">Emeralds Microfinance Bank </option>
+							<option value="Empire trust MFB ">Empire trust MFB </option>
+							<option value="Esan Microfinance Bank ">Esan Microfinance Bank </option>
+							<option value="Eso-E Microfinance Bank ">Eso-E Microfinance Bank </option>
+							<option value="Eyowo MFB ">Eyowo MFB </option>
+							<option value="FAST Microfinance Bank ">FAST Microfinance Bank </option>
+							<option value="FBN Mortgages Limited ">FBN Mortgages Limited </option>
+							<option value="FBNMobile ">FBNMobile </option>
+							<option value="FBNQUEST Merchant Bank ">FBNQUEST Merchant Bank </option>
+							<option value="FEDETH MICROFINANCE BANK ">FEDETH MICROFINANCE BANK </option>
+							<option value="FFS Microfinance Bank ">FFS Microfinance Bank </option>
+							<option value="FINATRUST MICROFINANCE BANK ">FINATRUST MICROFINANCE BANK </option>
+							<option value="FSDH Merchant Bank ">FSDH Merchant Bank </option>
+							<option value="Fidelity Bank ">Fidelity Bank </option>
+							<option value="Fidelity Mobile ">Fidelity Mobile </option>
 							</select>
 			
             
