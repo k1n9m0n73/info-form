@@ -17,8 +17,7 @@ export default function FeedbackForm() {
                       name="feedback"
                       method="POST"
                       action="/success"
-                    >
-			<div class="form-group">      
+                    >     
                       <input type="hidden" name="form-name" value="feedback" />
                       <p className={styles.hidden}>
                           <label>
@@ -291,7 +290,7 @@ export default function FeedbackForm() {
 
 					
 		<label htmlFor="lga">Local Government Area</label>
-		<select name="lga" id="lga" className={styles['form-field']} required/>
+		<select name="lga" id="lga" className={styles['form-field']} class='select-lga' required>
 		</select>
 
 	
