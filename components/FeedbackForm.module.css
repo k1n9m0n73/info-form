@@ -12,6 +12,13 @@
   width: 100%;
 }
 
+.select-lga {
+  font-size: inherit;
+  margin: 15px 0;
+  padding: 15px 15px;
+  width: 100%;
+}
+
 .button {
   background-color: teal;
   border: 1px solid black;
