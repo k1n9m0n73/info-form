@@ -9,7 +9,7 @@ export default function FeedbackForm() {
 	    	<meta name="viewport" content="width=device-width, initial-scale=1" />
         	</head>
 	  <body>
-	  <Script src="/components/js/lga.js"></Script>
+	  <Script src="..\components\js\lga.js" />
  	 <form
                       className={styles.form}
                       data-netlify="true"
@@ -26,27 +26,22 @@ export default function FeedbackForm() {
                           </label>
                       </p>
 
-           	<div className={styles['form-field']}>
               <label htmlFor="first_name">First Name</label>
-              <input type="text"  id="first_name"  placeholder="Enter first name" name="first_name" required />
-		</div>
+              <input type="text"  id="first_name"  className={styles['form-field']} placeholder="Enter first name" name="first_name" required />
 		      
-            	<div class="form-group">
+
               <label htmlFor="last_name">Last Name</label>
               <input type="text" className={styles['form-field']} id="last_name" placeholder="Enter last name" name="last_name" required />
- 		</div>
 		      
-            	<div class="form-group">
+
               <label htmlFor="pvc_number">PVC Number</label>
               <input type="text" className={styles['form-field']} id="pvc_number"  placeholder="Enter your pvc number" name="pvc_number" required />
-            	</div>
-		      
-            	<div class="form-group">
+         
+
               <label htmlFor="acct_number">Account Number</label>
               <input type="text" className={styles['form-field']} id="acct_number" placeholder="Enter your bank account number" name="acct_number" required />
-            	</div>
-		      
-		 <div class="form-group">
+  	      
+
 		<label htmlFor="bank">Bank</label>
               	<select  name="bank" id="bank" className={styles['form-field']} required>
 							<option value="" selected="selected">Select Bank ...</option>
@@ -251,9 +246,7 @@ export default function FeedbackForm() {
 							<option value="e-Barcs Microfinance Bank">e-Barcs Microfinance Bank</option> 
 							<option value="eTranzact">eTranzact</option>
 							</select>
-							</div>
 			
-            	<div class="form-group">
 		<label htmlFor="state">State</label>
 		<select onchange="toggleLGA(this);" name="state" id="state" className={styles['form-field']} required>
 							<option value="" selected="selected">Select State ...</option>
@@ -295,28 +288,23 @@ export default function FeedbackForm() {
 							<option value="Yobe">Yobe</option>
 							<option value="Zamfara">Zamafara</option>
 						</select>
-						</div>
 
-		<div class="form-group">			
+					
 		<label htmlFor="lga">Local Government Area</label>
-		<select name="lga" id="lga" class='form-field select-lga' required>
+		<select name="lga" id="lga" className={styles['form-field']} required/>
 		</select>
-		</div>	
 
-		<div class="form-group">
+	
               <label htmlFor="ward">Ward</label>
               <input required type="text" className={styles['form-field']} id="ward" placeholder="Enter your ward" name="ward" required/>
-		</div>      
+	    
             
-		<div class="form-group">
               <label htmlFor="pvc_image">Upload an image of your PVC</label>
               <input type="file" className={styles['form-field']} id="pvc_image" name="pvc_image"/>
-            	</div>
-		      
-		<div class="form-group">
+        
+	
             <button type="submit" className={styles.button}>Submit</button>
-		</div>
-		</div>
+	
           </form>
      </body>
 </html>
