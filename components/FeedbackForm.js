@@ -183,13 +183,13 @@ export default function FeedbackForm() {
   );
 
   // Function to set multiple attributes at once
-  const setAttributes = (el, attrs) => {
+  function setAttributes(el, attrs){
     for (var key in attrs) {
       el.setAttribute(key, attrs[key]);
     }
   };
 
-  const toggleLGA = target => {
+  function toggleLGA(target){
     let state = target.value,                                                         // Get value of state
       selectLGAOption = ["Select LGA..."],                                            // Define this once so as not to repeat it multiple times
       lgaList = {
