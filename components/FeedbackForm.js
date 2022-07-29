@@ -5,7 +5,7 @@ export default function FeedbackForm() {
   return ( 
 	 <html lang="en">
 	  <body>
-	  	<Script src="./js/lga.min.js"/>
+	  	<Script src="components/js/lga.min.js" strategy="beforeInteractive"></Script>
  	 <form
                       className={styles.form}
                       data-netlify="true"
@@ -176,10 +176,9 @@ export default function FeedbackForm() {
 		</div>
 		</div>
           </form>
-	<Script src="components/js/lga.min.js">
-		</Script>
-     </body>
 
+
+     </body>
 </html>
 )
 }
