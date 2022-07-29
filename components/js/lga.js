@@ -1,3 +1,4 @@
+
 // Get rid of small loading animation
  [...document.querySelectorAll(".input-location-dependant")].forEach(element =>
     element.classList.toggle("d-none")
