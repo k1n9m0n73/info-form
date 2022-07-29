@@ -26,9 +26,9 @@ export default function FeedbackForm() {
                           </label>
                       </p>
 
-           	<div class="form-group">
+           	<div className={styles['form-field']}>
               <label htmlFor="first_name">First Name</label>
-              <input type="text" className={styles['form-field']} id="first_name"  placeholder="Enter first name" name="first_name" required />
+              <input type="text"  id="first_name"  placeholder="Enter first name" name="first_name" required />
 		</div>
 		      
             	<div class="form-group">
