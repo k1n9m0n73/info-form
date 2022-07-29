@@ -1,19 +1,20 @@
 
 // Get rid of small loading animation
- [...document.querySelectorAll(".input-location-dependant")].forEach(element =>
-    element.classList.toggle("d-none")
-  );
 
-  // Function to set multiple attributes at once
-  const setAttributes = (el, attrs) => {
+[...document.querySelectorAll(".input-location-dependant")].forEach(element =>
+    element.classList.toggle("d-none")
+ );
+
+// Function to set multiple attributes at once
+ function setAttributes(el, attrs){
     for (var key in attrs) {
       el.setAttribute(key, attrs[key]);
     }
   };
 
-  const toggleLGA = target => {
-    let state = target.value,                                                         // Get value of state
-      selectLGAOption = ["Select LGA..."],                                            // Define this once so as not to repeat it multiple times
+  function toggleLGA(target){
+    let state = target.value,                                // Get value of state
+      selectLGAOption = ["Select LGA..."],                   // Define this once so as not to repeat it multiple times
       lgaList = {
         Abia: [
           "Aba North",
