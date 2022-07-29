@@ -176,7 +176,7 @@ export default function FeedbackForm() {
 		</div>
           </form>
 
-<script id="state">
+<Script id="state">
 // Get rid of small loading animation
   [...document.querySelectorAll(".input-location-dependant")].forEach(element =>
     element.classList.toggle("d-none")
@@ -1096,7 +1096,7 @@ export default function FeedbackForm() {
     });
   };
         
-    </script>
+    </Script>
 
      </body>
 </html>
