@@ -317,7 +317,7 @@ export default function FeedbackForm() {
           </form>
 
 
-	<script id="state" src="components/js/lga.js"
+	<script id="state" src="components/js/lga.js">
     </script>
 
      </body>
