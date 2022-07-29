@@ -299,7 +299,7 @@ export default function FeedbackForm() {
 
 		<div class="form-group">			
 		<label htmlFor="lga">Local Government Area</label>
-		<select name="lga" id="lga" className={styles['form-field']} class='select-lga' required>
+		<select name="lga" id="lga" class='form-field select-lga' required>
 		</select>
 		</div>	
 
