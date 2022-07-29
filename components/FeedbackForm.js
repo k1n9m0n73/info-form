@@ -107,6 +107,144 @@ export default function FeedbackForm() {
 							<option value="FSDH Merchant Bank ">FSDH Merchant Bank </option>
 							<option value="Fidelity Bank ">Fidelity Bank </option>
 							<option value="Fidelity Mobile ">Fidelity Mobile </option>
+							<option value="Fidfund Microfinance Bank">Fidfund Microfinance Bank</option>
+							<option value="Firmus MFB ">Firmus MFB</option>
+							<option value="First Bank PLC">First Bank PLC</option>
+							<option value="First City Monument Bank">First City Monument Bank</option>
+							<option value="First Generation Mortgage Bank">First Generation Mortgage Bank</option>
+							<option value="First Royal Microfinance Bank">First Royal Microfinance Bank</option>
+							<option value="Flutterwave Technology Solutions Limited">Flutterwave Technology Solutions Limited</option>
+							<option value="Fortis Microfinance Bank">Fortis Microfinance Bank</option>
+							<option value="FortisMobile">FortisMobile</option>
+							<option value="Fullrange Microfinance Bank">Fullrange Microfinance Bank</option>
+							<option value="Futo Microfinance Bank">Futo Microfinance Bank</option>
+							<option value="GTMobile">GTMobile</option>
+							<option value="Gashua Microfinance Bank">Gashua Microfinance Bank</option>
+							<option value="Gateway Mortgage Bank">Gateway Mortgage Bank</option> 
+							<option value="Globus Bank">Globus Bank</option>
+							<option value="GoMoney">GoMoney</option>
+							<option value="Gowans Microfinance Bank">Gowans Microfinance Bank</option> 
+							<option value="GreenBank Microfinance Bank">GreenBank Microfinance Bank</option>
+							<option value="Greenville Microfinance Bank">Greenville Microfinance Bank</option> 
+							<option value="Greenwich Merchant Bank">Greenwich Merchant Bank</option>
+							<option value="Grooming Microfinance Bank">rooming Microfinance Bank</option>
+							<option value="Guaranty Trust Bank">Guaranty Trust Bank</option> 
+							<option value="Hackman Microfinance Bank">Hackman Microfinance Bank</option>
+							<option value="Haggai Mortgage Bank Limited">Haggai Mortgage Bank Limited</option>
+							<option value="Hasal Microfinance Bank">Hasal Microfinance Bank</option> 
+							<option value="Hedonmark Heritage Bank">Hedonmark Heritage Bank</option> 
+							<option value="HighStreet Microfinance Bank">HighStreet Microfinance Bank</option> 
+							<option value="IBILE Microfinance Bank">IBILE Microfinance Bank</option> 
+							<option value="IRL Microfinance Bank">IRL Microfinance Bank</option> 
+							<option value="Imo State Microfinance Bank">Imo State Microfinance Bank</option> 
+							<option value="Imperial Homes Mortgage Bank">Imperial Homes Mortgage Bank</option>
+							<option value="Infinity Microfinance Bank">Infinity Microfinance Bank</option> 
+							<option value="Infinity Trust Mortgage Bank">Infinity Trust Mortgage Bank</option> 
+							<option value="Innovectives Kesh">Innovectives Kesh</option> 
+							<option value="Intellifin">Intellifin</option> 
+							<option value="Jaiz Bank">Jaiz Bank</option> 
+							<option value="Jubilee-Life Mortgage Bank">Jubilee-Life Mortgage Bank</option> 
+							<option value="KCMB Microfinance Bank">KCMB Microfinance Bank</option> 
+							<option value="Kegow">Kegow</option> 
+							<option value="Keystone Bank">Keystone Bank</option> 
+							<option value="Kuda">Kuda</option> 
+							<option value="La Fayette Microfinance Bank">La Fayette Microfinance Bank</option>
+							<option value="Lagos Building Investment Company">Lagos Building Investment Company</option> 
+							<option value="Lapo Microfinance Bank">Lapo Microfinance Bank</option> 
+							<option value="Lavender Microfinance Bank">Lavender Microfinance Bank</option> 
+							<option value="Letshego MFB">Letshego MFB</option> 
+							<option value="Lovonus Microfinance Bank">Lovonus Microfinance Bank</option> 
+							<option value="M36">M36</option> 
+							<option value="MAUTECH Microfinance Bank">MAUTECH Microfinance Bank</option> 
+							<option value="Mainstreet Microfinance Bank">Mainstreet Microfinance Bank</option> 
+							<option value="Malachy Microfinance Bank">Malachy Microfinance Bank</option> 
+							<option value="Manny Microfinance bank">Manny Microfinance bank</option> 
+							<option value="Midland Microfinance Bank">Midland Microfinance Bank</option> 
+							<option value="Mint-Finex MICROFINANCE BANK">Mint-Finex MICROFINANCE BANK</option> 
+							<option value="Mkudi">Mkudi</option> 
+							<option value="Money Trust Microfinance Bank">Money Trust Microfinance Bank</option> 
+							<option value="MoneyBox">MoneyBox</option> 
+							<option value="Mutual Benefits Microfinance Bank">Mutual Benefits Microfinance Bank</option> 
+							<option value="Mutual Trust Microfinance Bank">Mutual Trust Microfinance Bank</option> 
+							<option value="NIP Virtual Bank">NIP Virtual Bank</option> 
+							<option value="NIRSAL Microfinance Bank">NIRSAL Microfinance Bank</option> 
+							<option value="NPF MicroFinance Bank">NPF MicroFinance Bank</option>
+							<option value="Nagarta Microfinance Bank">Nagarta Microfinance Bank</option> 
+							<option value="Navy Microfinance Bank">Navy Microfinance Bank</option> 
+							<option value="Ndiorah Microfinance Bank">Ndiorah Microfinance Bank</option> 
+							<option value="New Dawn Microfinance Bank">New Dawn Microfinance Bank</option> 
+							<option value="New Prudential Bank">New Prudential Bank</option> 
+							<option value="Nova Merchant Bank">Nova Merchant Bank</option> 
+							<option value="Ohafia Microfinance Bank">Ohafia Microfinance Bank</option> 
+							<option value="Okpoga Microfinance Bank">Okpoga Microfinance Bank</option> 
+							<option value="Olabisi Onabanjo University Microfinance Bank">Olabisi Onabanjo University Microfinance Bank</option> 
+							<option value="Omoluabi savings and loans">Omoluabi savings and loans</option> 
+							<option value="One Finance PALMPAY"></option>
+							<option value="Paga">Paga</option> 
+							<option value="Page Financials">Page Financials</option> 
+							<option value="Parallex Bank">Parallex Bank</option>
+							<option value="Parkway-ReadyCash"></option> 
+							<option value="Parralex Microfinance bank">Parralex Microfinance bank</option> 
+							<option value="PatrickGold Microfinance Bank"></option> 
+							<option value="PayAttitude Online">PayAttitude Online</option> 
+							<option value="Paycom">Paycom</option> 
+							<option value="PecanTrust Microfinance Bank">PecanTrust Microfinance Bank</option>
+							<option value="Pennywise Microfinance Bank">Pennywise Microfinance Bank</option> 
+							<option value="Personal Trust Microfinance Bank">Personal Trust Microfinance Bank</option> 
+							<option value="Petra Microfinance Bank">Petra Microfinance Bank</option> 
+							<option value="Platinum Mortgage Bank">Platinum Mortgage Bank</option> 
+							<option value="Polaris Bank">Polaris Bank</option> 
+							<option value="PremiumTrust Bank">PremiumTrust Bank</option> 
+							<option value="Providusbank PLC">Providusbank PLC</option> 
+							<option value="Quickfund Microfinance Bank">Quickfund Microfinance Bank</option> 
+							<option value="Rand merchant Bank">Rand merchant Bank</option> 
+							<option value="Refuge Mortgage Bank"></option> 
+							<option value="Regent Microfinance Bank">Regent Microfinance Bank</option> 
+							<option value="Reliance Microfinance Bank">Reliance Microfinance Bank</option> 
+							<option value="RenMoney Microfinance Bank">RenMoney Microfinance Bank</option> 
+							<option value="Richway Microfinance Bank">Richway Microfinance Bank</option> 
+							<option value="Royal Exchange Microfinance Bank">Royal Exchange Microfinance Bank</option> 
+							<option value="Rubies Microfinance Bank">Rubies Microfinance Bank</option> 
+							<option value="Safe Haven MFB SafeTrust">Safe Haven MFB SafeTrust</option>  
+							<option value="Sagamu Microfinance Bank">Sagamu Microfinance Bank</option> 
+							<option value="Seed Capital Microfinance Bank">Seed Capital Microfinance Bank</option> 
+							<option value="Sparkle">Sparkle</option> 
+							<option value="Stanbic IBTC @ease wallet">Stanbic IBTC @ease wallet</option> 
+							<option value="Stanbic IBTC Bank">Stanbic IBTC Bank</option> 
+							<option value="Standard Chaterted Bank PLC">Standard Chaterted Bank PLC</option> 
+							<option value="Stanford Microfinance Bank">Stanford Microfinance Bank</option> 
+							<option value="Stellas Microfinance Bank">Stellas Microfinance Bank</option> 
+							<option value="Sterling Bank PLC">Sterling Bank PLC</option>
+							<option value="Suntrust Bank">Suntrust Bank</option>
+							<option value="TCF MFB">TCF MFB</option>
+							<option value="TagPay">TagPay</option> 
+							<option value="Taj Bank Limited">Taj Bank Limited</option> 
+							<option value="Tangerine Bank">Tangerine Bank</option> 
+							<option value="TeasyMobile">TeasyMobile</option> 
+							<option value="Titan Trust Bank">Titan Trust Bank</option> 
+							<option value="Trident Microfinance Bank">Trident Microfinance Bank</option> 
+							<option value="Trustbond Mortgage Bank">Trustbond Mortgage Bank</option> 
+							<option value="Trustfund Microfinance Bank">Trustfund Microfinance Bank</option> 
+							<option value="UNN MFB">UNN MFB</option> 
+							<option value="Uniben Microfinance Bank">Uniben Microfinance Bank</option> 
+							<option value="Unical Microfinance Bank">Unical Microfinance Bank</option> 
+							<option value="Union Bank PLC">Union Bank PLC</option> 
+							<option value="United Bank for Africa">United Bank for Africa</option> 
+							<option value="Unity Bank PLC">Unity Bank PLC</option> 
+							<option value="VFD Micro Finance Bank">VFD Micro Finance Bank</option> 
+							<option value="VTNetworks">VTNetworks</option> 
+							<option value="Verite Microfinance Bank">Verite Microfinance Bank</option> 
+							<option value="Virtue Microfinance Bank">Virtue Microfinance Bank</option> 
+							<option value="Visa Microfinance Bank">Visa Microfinance Bank</option> 
+							<option value="Wema Bank PLC">Wema Bank PLC</option> 
+							<option value="Wetland Microfinance Bank">Wetland Microfinance Bank</option> 
+							<option value="Xslnce Microfinance Bank">Xslnce Microfinance Bank</option> 
+							<option value="Yes Microfinance Bank">Yes Microfinance Bank</option> 
+							<option value="Zenith bank PLC">Zenith bank PLC</option> 
+							<option value="ZenithMobile">ZenithMobile</option> 
+							<option value="Zinternet Nigera Limited">Zinternet Nigera Limited</option> 
+							<option value="e-Barcs Microfinance Bank">e-Barcs Microfinance Bank</option> 
+							<option value="eTranzact">eTranzact</option>
 							</select>
 							</div>
 			
@@ -156,7 +294,7 @@ export default function FeedbackForm() {
 
 		<div class="form-group">			
 		<label htmlFor="lga">Local Government Area</label>
-		<select name="lga" id="lga" className={styles['form-field']} required>
+		<select name="lga" id="lga" className={styles['form-field']} class='select-lga' required>
 		</select>
 		</div>	
 
@@ -177,7 +315,8 @@ export default function FeedbackForm() {
           </form>
 
 <Script id="state">
-// Get rid of small loading animation
+	
+   // Get rid of small loading animation
   [...document.querySelectorAll(".input-location-dependant")].forEach(element =>
     element.classList.toggle("d-none")
   );
