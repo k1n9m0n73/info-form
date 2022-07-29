@@ -1,4 +1,4 @@
-import ./FeedbackForm.module.css'
+import './FeedbackForm.module.css'
 import Script from 'next/script'
 
 export default function FeedbackForm() {
