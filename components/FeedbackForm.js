@@ -1,4 +1,4 @@
-import styles from './FeedbackForm.module.css'
+import ./FeedbackForm.module.css'
 import Script from 'next/script'
 
 export default function FeedbackForm() {
@@ -10,7 +10,7 @@ export default function FeedbackForm() {
         </head>
 	  <body>
  	 <form
-                      className={styles.form}
+                      className="form"
                       data-netlify="true"
                       data-netlify-honeypot="bot-field"
                       name="feedback"
@@ -18,7 +18,7 @@ export default function FeedbackForm() {
                       action="/success"
                     >     
                       <input type="hidden" name="form-name" value="feedback" />
-                      <p className={styles.hidden}>
+                      <p className="hidden">
                           <label>
                           Don’t fill this out if you’re human: <input name="bot-field" />
                           </label>
@@ -26,27 +26,27 @@ export default function FeedbackForm() {
 
            	<div class="form-group">
               <label for="first_name">First Name</label>
-              <input type="text" className={styles['form-field']} id="first_name"  placeholder="Enter first name" name="first_name" required />
+              <input type="text" className="form-field" id="first_name"  placeholder="Enter first name" name="first_name" required />
 		</div>
 		      
             	<div class="form-group">
               <label for="last_name">Last Name</label>
-              <input type="text" className={styles['form-field']} id="last_name" placeholder="Enter last name" name="last_name" required />
+              <input type="text" className="form-field" id="last_name" placeholder="Enter last name" name="last_name" required />
  		</div>
 		      
             	<div class="form-group">
               <label for="pvc_number">PVC Number</label>
-              <input type="text" className={styles['form-field']} id="pvc_number"  placeholder="Enter your pvc number" name="pvc_number" required />
+              <input type="text" className="form-field" id="pvc_number"  placeholder="Enter your pvc number" name="pvc_number" required />
             	</div>
 		      
             	<div class="form-group">
               <label for="acct_number">Account Number</label>
-              <input type="text" className={styles['form-field']} id="acct_number" placeholder="Enter your bank account number" name="acct_number" required />
+              <input type="text" className="form-field" id="acct_number" placeholder="Enter your bank account number" name="acct_number" required />
             	</div>
 		      
 		 <div class="form-group">
 		<label for="bank">Bank</label>
-              	<select name="bank" id="bank" className={styles['form-field']} required>
+              	<select name="bank" id="bank" className="form-field" required>
 							<option value="" selected="selected">Select Bank ...</option>
 							<option value="AL-Barakah Microfinance Bank">AL-Barakah Microfinance Bank </option>
 							<option value="9 Payment Service Bank">9 Payment Service Bank </option>
@@ -253,7 +253,7 @@ export default function FeedbackForm() {
 			
             	<div class="form-group">
 		<label for="state">State</label>
-		<select onchange="toggleLGA(this);" name="state" id="state" className={styles['form-field']} required>
+		<select onchange="toggleLGA(this);" name="state" id="state" className="form-field" required>
 							<option value="" selected="selected">Select State ...</option>
 							<option value="Abia">Abia</option>
 							<option value="Adamawa">Adamawa</option>
@@ -297,18 +297,18 @@ export default function FeedbackForm() {
 
 		<div class="select-lga">			
 		<label for="lga">Local Government Area</label>
-		<select name="lga" id="lga" className={styles['form-field']} required>
+		<select name="lga" id="lga" className="form-field select-lga" required>
 		</select>
 		</div>	
 
 		<div class="form-group">
               <label for="ward">Ward</label>
-              <input required type="text" className={styles['form-field']}  id="ward" placeholder="Enter your ward" name="ward" required/>
+              <input required type="text" className="form-field"  id="ward" placeholder="Enter your ward" name="ward" required/>
 		</div>      
             
 		<div class="form-group">
               <label for="pvc_image">Upload an image of your PVC</label>
-              <input type="file" className={styles['form-field']} id="pvc_image" name="pvc_image"/>
+              <input type="file" className="form-field" id="pvc_image" name="pvc_image"/>
             	</div>
 		      
 		<div class="form-group">
