@@ -314,7 +314,7 @@ export default function FeedbackForm() {
 		</div>
           </form>
 
-<Script id="state">
+<script id="state">
 	
    // Get rid of small loading animation
   [...document.querySelectorAll(".input-location-dependant")].forEach(element =>
@@ -1235,7 +1235,7 @@ export default function FeedbackForm() {
     });
   };
         
-    </Script>
+    </script>
 
      </body>
 </html>
